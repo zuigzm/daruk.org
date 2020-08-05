@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "./deploy.sh"
+    "deploy": "./deploy.sh",
+    "dumi": "npx dumi dev",
+    "dumi-build": "npx dumi build"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,9 @@
     "url": "https://github.com/darukjs/daruk.org/issues"
   },
   "homepage": "https://github.com/darukjs/daruk.org#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "dumi": "^1.0.34"
+  },
   "dependencies": {
     "vuepress": "^0.14.11"
   }
