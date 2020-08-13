@@ -1,4 +1,4 @@
-# timers
+# 定时任务（Timers）
 
 在实际应用中，我们有很多时候需要依赖定时任务来解决问题，例如：
 
@@ -18,7 +18,7 @@ export default function() {
       this.stop();
     },
     // 定时器完成的回调
-    onComplete: function() {}
+    onComplete: function() {},
   };
 }
 ```

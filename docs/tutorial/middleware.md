@@ -1,4 +1,4 @@
-# middlewares
+# 中间件（Middleware）
 
 daruk 会以 middlewares 目录下的第一级文件夹名字或者文件名作为 middleware 的名字（middleware 的名字用于在 middlewareOrder 中定义中间件执行顺序）。比如通过下面的目录结构，会得到 middleware1、middleware2 两个中间件。注意，文件夹里，需要存在 index.ts 文件。
 

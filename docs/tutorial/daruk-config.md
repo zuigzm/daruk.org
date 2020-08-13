@@ -1,4 +1,4 @@
-# daruk.config.ts
+# 配置
 
 ## 文件目录结构
 

@@ -1,4 +1,4 @@
-# 装饰器
+# 装饰器（Decorator）
 
 ## http method 装饰器
 
